@@ -1,60 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
+<meta charset="utf-8">
+<script>
+    let valasz = prompt("Sétálsz az erdőben amikor egyszercsak megtámad a VérMókucs! Mit csinálsz?\n 1 Hozzá dobod a kulacsodat!\n 2 Sarkonfordulsz és rohansz ki az erdőből!")
+    if (valasz == 1){
+        let valasz = prompt("A VérMókucs tornászokat megszégyenítő mozdulattal elkerüli a támadásodat. Most már nem csak hogy habzik a szája, a szemei is vérben úsznak. Két lehetőséged van:\n 1 Előveszed a vadászkéset a táskádből és elkezdesz hadonászni vele, remélve hogy ezáltal majd jól megijed!\n 2 Bízol abban, hogy a VérMókucsok mindig ilyenek és igazából csak azt akarja hogy megsimizd a kicsi buksiját!")
+            if (valasz ==1){
+                let valasz = prompt("Mivel a vadászkést eddig nem sokat használtad ezért ugyetlenül elkezdesz vele csapkodni magad előtt! Az állat ettől a furcsa mozgástól kicsit megszeppen. Elkezd lassítani majd megáll. Ahogy ezt észreveszed kicsit megnyugszol és már lassabban hadonászol. Ezt kihasználva a Vérmókucs újfent megiramodik feléd. Elkezd cikk-cakkban futni feléd és mikor már csak 1 méterre van tőlet nekedugrik! Mit csinálsz most?\n 1 A kést előre tartva bízol benne hogy az állat felnyársalja saját magát!\n 2 Továbbra is csak hadonászol össze meg vissza?")
+                    if (valasz == 1){
+                        let valasz = prompt("Úgy is lett! Felnyársalódott a kis jószág késedre. Megkönnybbülsz bár alig bírsz állva maradni. Tested a sokktól elkezd remegni. Fél perc elteltével tudsz csak megnyugodni annyira, hogy leülj az avarba. Megnézed a késen lévő állatot mi is lett vele pontosan. Csodálkozba tapasztalod, hogy nem vérzik annak ellenére, hogy átment a hasán. Ekkor az eddig mozdulatlan test megrándult. Fájdalmas üvöltésbe kezdett majd megpróbált a kezed felé menni. Ettől úgy megijedtél hogy:\n 1 Beleszúrod a legközelebbi fába a kést és hanyatt homlok menekülsz ki az erdőből!\n 2 Ilyedtedben elejted, majd elkezdesz az ellenkező irányba futni ahogy csak bírsz!?")
+                            if (valasz == 1){
+                                alert("Ahogy kiérsz az erdőből még hallod a fülsüketítő vísítást. Hátranézel, majd vissza előre és futsz tovább ameddig csak bírsz. Túlélted, gondolod magadba mikor egyre közelebb hallod a félelmetes hangot. Nem mersz hátranézni csak ftsz és futsz ahogy a lábad bírja. Sajnos az úton nincs semmi és senki így hamarosan már a karmait is hallod az aszfalton. De nem mersz hátranézni csak futsz tovább. A VérMókucs egyre közelebb kerül majd ráugrik a lábadra és beleharap  a combodba. A fájdalomtól és a kimerültségtől elesel és bevered a fejedet. Pár perc múlva felébredsz és azt veszed észre, hogy a erdőben fekszel és iszonyatosan hasogat a fejed. Felkelsz majd mosolyogva tapasztalod hogy csak nekimentél egy faágnak amit nem vettél észre magad előtt. Egy furcsa képzelgés volt csupán!")
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Egy szuper oldal</title>
-</head>
+                            }else if (valasz == 2){
+                                alert("A VérMókucs addig ügyeskedig amig megszabadul a késtől és elkezd feléd futni. Hamarossan utolér és leharapja a jobb bokádat! Ettől elesel és a következő pillanatban már a arcodat marcangolja a bestia. Utolsó lehelletedig próbálsz védekezni de hiába. Aki egyszer találkozik egy VérMókuccsal az nem fog beszélni róla!")
+                            }else {alert("Rossz gomb, kezdd elölről!")}
+                        
+                    
+                    }else if (valasz == 2){
+                        alert("Pechedre pont rosszkor csaptál így a feléd ugró bestia beleharap az alkarodba. Ettől elejted a kést és próbálod lerázni magadról. Több se kellett a VérMókucsnak. Elengedte a karod majd egyenesen a torkod felé futott és egy erős harapással kettéválasztotta a fejed a testedtől. Győzedelmeskedett a vadon szörnyszülöttje!")
+                    }else {alert("Rossz gomb, kezdd elölről!")}
+            
+            
+            }else if (valasz == 2){
+                alert("Jobb kezedet a VérMókucs feje felé nyújtod. Erre a kis állat megszeppen és magáll. Óvatosan közeledtek egymás felé. Mikor éppen megsimiznéd a kis buksiját az álat beleharap a tenyeredbe, mancsaival átöleli az alkarodat. Egy hírtelen rántást követően kiszakítja tőből a kezed! Az adrenalin szétáramlik a testedben és próbálsz elmenekülni a fenavadtól! Alig hogy megteszel 2 lépést a VérMókucs ráugrik a hátadra, felmászik a nyakadhoz, előrefordul és átharapja a torkodat és az ütőereidet. Ekkor összeesel és elvérzel. Győzedelmeskedett a vadon egy furcsa teremtménye!")
+            }else {alert("Rossz gomb, kezdd elölről!")}
+    
+    }else if(valasz == 2) {
+        alert("Sikítva kirohansz az erdő szélére. Hátrafordulsz és látod hogy nincs mögötted semmi. Megkönnyebbülést érzel, lehet nem is tamadt meg semmi?")
 
-<body>
-    <ul>
-        <li>
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="/pages/products.html">Products</a>
-        </li>
-        <li>
-            <a href="/pages/orders.html">Orders</a>
-        </li>
-        <li>
-            <a href="/abaut.html">About</a>
-        </li>
-    </ul>
-    <h1>Fantastic Burgers</h1>
-    <ul>
-        <li>
-            Meat lover
-            <ul>
-                <li>Beef</li>
-                <li>Chicken</li>
-                <li>Pork</li>
-            </ul>
-        </li>
-        <li>Vega</li>
-        <li>Piedone</li>
-    </ul>
-    <h2>Step of order</h2>
-    <ol>
-        <li>Válassz burgert</li>
-        <li>Buy it</li>
-        <li>add meg a címedet</li>
-        <li>Edd meg</li>
-    </ol>
-    <p>
-        <a href="https://nuus.hu/eletmod/gasztro/0309/ezert-kivanod-meg-a-hamburgert-es-a-gyorskajat-a-hirdeteseken/">
-            Hamburger
-        </a>
-    </p>
-    <a href="pages/orders.html">Orders</a>
-    <p>
-        <a target="blank"
-            href="https://nuus.hu/eletmod/gasztro/0309/ezert-kivanod-meg-a-hamburgert-es-a-gyorskajat-a-hirdeteseken/">
-            <img width="56" src="img/Wizumito.JPG" alt="Tasty order" </a>
-    </p>
+    }else {
+        alert("Rossz gomb, kezdd elölről!")
+    }
+    
+    
+    
+
+</script>
 
 
-</body>
-
-</html>
