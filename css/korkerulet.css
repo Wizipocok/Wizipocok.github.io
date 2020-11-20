@@ -6,7 +6,7 @@
 body {
     background: url("/pics/hatter07.jpg");
     margin: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
 
 }
 
@@ -47,7 +47,7 @@ main label {
 main label:hover {
     cursor: pointer;
     
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
