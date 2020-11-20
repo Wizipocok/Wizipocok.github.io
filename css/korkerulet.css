@@ -6,7 +6,7 @@
 body {
     background: url("/pics/hatter07.jpg");
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -33,7 +33,7 @@ main {
     color: wheat;
     font-size: 30px;
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main label {
@@ -80,7 +80,7 @@ footer a {
     display: block;
     color: black;
     padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 footer a:hover {
