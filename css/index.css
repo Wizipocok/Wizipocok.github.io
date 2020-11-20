@@ -21,7 +21,8 @@ header {
     font-size: 80px;
     font-weight: 700;
     padding: 80px 120px;
-    text-shadow: 0 0 10px rgba(255, 4, 4, 1)
+    text-shadow: 0 0 10px rgba(255, 4, 4, 1);
+    height: 200px;
 
 }
 
