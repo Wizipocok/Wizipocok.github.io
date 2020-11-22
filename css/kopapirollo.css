@@ -11,13 +11,14 @@ body {
 }
 
 .wrapper {
-    width: 800px;
+    width: 800px;;
     margin: auto;
     
 }
 
 header {
-    background: url("/pics/hatter08.jpg");
+    background: url("/pics/hatter08.jpg") ;
+    
     height: 150px;
     color: black;
     font-size: 40px;
@@ -27,26 +28,45 @@ header {
 }
 
 main {
-    width: 800px;
-    height: 300px;
-    text-align: center;
-    color: wheat;
+    height: 450px;
+    text-align: center;  
+    font-size: 50px;
+    margin:0;
+}
+
+main div.szoveg {
+    padding-top: 50px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 0 0 10px rgba(255, 4, 4, 1);
+    
+}
+
+main div.elemek {
+    color: white;
+    box-shadow: 0 0 3px white;
     font-size: 30px;
-    margin: 0;
-}
-
-main label {
-    font-size: 100px;
-    color: rgb(255, 255, 255);
-    text-shadow: 10px 10px 20px rgb(255, 1, 1);
-    
     
 }
 
-main label:hover {
+main div img {
+    margin: 60px;
+    box-shadow: 0 0 10px white;
+    
+    
+    
+}
+
+img:hover {
     cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("/pics/ollo1.jpg");
+    opacity: 0.5;
+    
+}
 
+span.eredmeny {
+    font-size: 30px;
+    color: yellow;
 }
 
 .content::after,
@@ -57,23 +77,19 @@ footer::after {
 }
 
 footer {
-    background: url("/pics/hatter08.jpg");
+    /*background: url("/pics/hatter08.jpg");*/
     color: black;
-    font-size: 50px;
     text-shadow: 0 0 10px rgba(255, 4, 4, 1);
-    padding: 40px 70px;
-    
+    font-size: 30px;
+    text-align: right;
 }
 
-footer .right {
-    float: right;
-}
+
 
 footer a {
     text-decoration: none;
     display: block;
-    color: black;
-    padding: 10px;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
 }
 

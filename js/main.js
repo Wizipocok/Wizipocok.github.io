@@ -166,3 +166,29 @@ function kopapirollo() {
     }
 
 }
+function veletlen(min, max) {
+    return (Math.floor(Math.random() * (max - min + 1) + min))
+}
+
+function valaszt() {
+
+    let x = veletlen(1, 3)
+    let y = 1;
+    let helyezes = document.querySelector("span.eredmeny");
+
+    if (x == 1 && y == 1) {
+        helyezes.innerHTML = "Döntetlen!"
+        let hang = new Audio("/egyeb/dontetlen.mp3");
+        hang.play();
+    } else if (x == 2 && y == 1) {
+        helyezes.innerHTML = "Vesztettél!"
+        hang = new Audio("/egyeb/nemnyert.mp3");
+        hang.play();
+    } else if (x==3 && y==1){
+        helyezes.innerHTML = "Nyertél!";
+        hang = new Audio("/egyeb/nyert.mp3");
+        hang.play();
+    }
+    
+
+}

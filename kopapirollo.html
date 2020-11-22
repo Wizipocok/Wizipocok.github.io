@@ -11,18 +11,28 @@
 <body>
 
     <div class="wrapper">
-        
+
         <header>
             Kő / Papír / Olló
         </header>
 
         <div class="content">
             <main>
-                <h2>Ha biztos vagy a dolgodban akkor kattints a "START"- ra! </h2>
-                <label class="start" for="" onclick="kopapirollo()">START</label>
+                <div class="szoveg">
+                    Ha szeretnél játszani, csak válassz kedvedre!
 
+                </div>
+
+
+                <div class="elemek">
+                    <img onclick="valaszt()" src="/pics/ko.jpg" alt="Kő">
+                    <img onclick="valaszt()" src="/pics/papir.jpg" alt="Papír">
+                    <img onclick="valaszt()" src="/pics/ollo.jpg" alt="Olló">
+                    Helyzeted: <span class="eredmeny">Sok Sikert!</span>
+
+                </div>
             </main>
-            
+
         </div>
 
 
@@ -35,11 +45,11 @@
             </div>
 
         </footer>
-    
+
 
     </div>
-   
-   
+
+
 
 
     <script src="/js/main.js"></script>
